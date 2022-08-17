@@ -1,0 +1,77 @@
+====================== TE+ COMPLEMENT TEMPLATE ======================
+For this complement to work you MUST have also installed TE+ original datapack
+=====================================================================
+
+1.- [What you can change]
+You can't change the name or the location of any of the files provided in:
+- enchantplus
+- technical_anvil
+- load
+
+What you need to do in those files is to go to "tags/functions/[file]" and change  ONLY the name "complement" to
+to whatever your namespace want to be. 
+
+If you do that, you can change the name of the main folder called "complement" to your namespace
+
+You can also change the pack.png if you want
+You can also change the description from the pac.kmcmeta file
+
+##########################################################
+2.- [Adding custom enchantments to modded items]
+
+You need to go to "complement/functions/menu/[file]" and follow the instructions
+
+However, there are some CONFLICTS with Slatter, Poison Aspect (for tridents), Waterjet, Agility, Life+ and
+Attack Speed (for swords) enchantments. You must do an extra step if you want to add them correctly.
+
+----------------------------------------------------------
+2.1.- Poison Aspect for tridents and Waterjet enchantment
+
+These enchantments trigger when you throw the trident and hit an entity, to make this also work for your
+modded trident, you must go to:
+
+- "complement/functions/result/poison_aspect_trident"
+- "complement/functions/result/waterjet_trident"
+
+Be sure to follow the instructions from these files
+
+----------------------------------------------------------
+2.2.- Slatter enchantment
+
+We need to detect when the player right clic with the custom fishing rod, and for that an scoreboard needs
+to be created, so go to: "complement/functions/load" and follow the instructions; also is recommended that
+you check "complement/functions/uninstall" and follow the instructions.
+
+After you create the scoreboard, go to "complement/functions/result/splatter_trigger" and follow the instructions
+
+----------------------------------------------------------
+2.3.- Agility, Life+ and Attack Speed enchantments
+
+Even if you add boots, chestplate or sword in step 2.0, you will only get the Lore from these enchantments into your
+boots, chestplate or sword. To add correctly the enchantment, you need to give it an Attribute, and for that go to:
+
+- "complement/functions/merge_attributes/agility_type"
+- "complement/functions/merge_attributes/life_plus_type"
+- "complement/functions/merge_attributes/attack_speed_type"
+
+Follow precisely the instructions!
+
+##########################################################
+3.- [Prevent bugs]
+
+If you add a modded item, you MUST go to "technical_anvil/tags/items/ui", you need to open it and add the id
+of all the modded items you add into the complement.
+
+This is very important because otherwise, players can duplicate the output from the Technical Anvil slot!
+
+- You can add more files in the "tags/items" folder depending on your needs, but DON'T remove or change the
+  name of "ui" in the folder
+
+
+Hope this is helpful, if you need help or have questions, message me through discord: Frektip#4587 
+
+
+
+
+
+
