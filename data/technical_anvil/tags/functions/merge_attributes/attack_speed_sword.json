@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"complement:merge_attributes/attack_speed_type", "required":false}
+    ]
+}

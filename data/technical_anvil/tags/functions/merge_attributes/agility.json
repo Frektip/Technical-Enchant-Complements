@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"complement:merge_attributes/agility_type", "required":false}
+    ]
+}
