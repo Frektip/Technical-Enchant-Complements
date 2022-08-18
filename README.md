@@ -6,4 +6,4 @@ correct complement your your mod, otherwise the whole datapack is going to break
 
 This repository contains the neccesary files to start creating your complement, follow the #comments in each file correctly and for beginners read the "read_me.txt" file.
 
-You can find the complements list in the wiki
+You can find the complements list in the [wiki](https://github.com/Frektip/Technical-Enchant-Complements/wiki)
