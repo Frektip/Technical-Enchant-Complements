@@ -8,4 +8,4 @@
 #scoreboard objectives add Splatter.custom_rod minecraft.used:cusom.rod
 ##-------------------------------------------------------------------#
 
-#You can als add a tellraw load message to know if the complement is installed
+#You can also add a tellraw load message to know if the complement is installed
