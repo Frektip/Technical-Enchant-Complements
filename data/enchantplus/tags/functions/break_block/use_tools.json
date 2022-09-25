@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"complement:reset_mined_scores", "required":false}
+    ]
+}
