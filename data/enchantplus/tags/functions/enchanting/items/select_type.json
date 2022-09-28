@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"complement:enchant_items/select_type", "required":false}
+    ]
+}
