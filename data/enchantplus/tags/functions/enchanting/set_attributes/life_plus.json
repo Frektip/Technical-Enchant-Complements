@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"complement:enchant_items/attribute_set/life_plus", "required":false}
+    ]
+}
