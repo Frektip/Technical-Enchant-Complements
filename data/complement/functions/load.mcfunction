@@ -1,4 +1,5 @@
 #Add scoreboards to detect when a player uses a custom fishing rod
+#Add scoreboards to detect when a player uses a custom pickaxe, axe or shovel
 
 ## If you are trying to add an  scoreboard that doesn't exist, 
 ## the HOLE load fucntion is gonna break

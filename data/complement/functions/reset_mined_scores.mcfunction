@@ -1,17 +1,18 @@
 #This function is to detect when a player use a certain tool
-#This is to make modded tools to be compatible with Mining+, Vein-Miner
-# Timber, Auto-Smelt, Chopping and Excavator Enchantments
+##This is to make modded tools to be compatible with Mining+, Vein-Miner
+## Timber, Auto-Smelt, Chopping, Excavator and Splatter Enchantments
 #Otherwise the game isn't going to recognize those modded tools even though
 # you can add those enchantments through the Technical Anvil
 
-#To achieve this you need to add 1 value to a specific fake player score 
+#To achieve this you need to add 1 value to a general score
 #  depening the tool the player used
 
-#--Fake players you can use (but can't change)--#
+#-You can use  the general scoreboard: (but can't change)--#
 
 # teplus.pick = picaxe related tools
 # teplus.axe = axe related tools
 # teplus.shov = shovel related tools
+# teplus.firod = fining rod related tools
 
 # You need to follow this format:
 # In case for a pickaxe
