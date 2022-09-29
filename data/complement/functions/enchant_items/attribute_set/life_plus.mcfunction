@@ -12,7 +12,7 @@
 
 
 ##---------------------------------------REFERENCE---------------------------------------##
-#execute if entity @s[nbt={Item:{id:"modded:chestplate_id1"}}] run item modify entity @s container.22 complement:life_plus/chestplate1
-#execute if entity @s[nbt={Item:{id:"modded:chestplate_id2"}}] run item modify entity @s container.22 complement:life_plus/chestplate2
-#execute if entity @s[nbt={Item:{id:"modded:chestplate_id3"}}] run item modify entity @s container.22 complement:life_plus/chestplate3
+#execute if entity @s[nbt={Item:{id:"modded:chestplate_id1"}}] run item modify entity @s container.0 complement:life_plus/chestplate1
+#execute if entity @s[nbt={Item:{id:"modded:chestplate_id2"}}] run item modify entity @s container.0 complement:life_plus/chestplate2
+#execute if entity @s[nbt={Item:{id:"modded:chestplate_id3"}}] run item modify entity @s container.0 complement:life_plus/chestplate3
 ##---------------------------------------------------------------------------------------##

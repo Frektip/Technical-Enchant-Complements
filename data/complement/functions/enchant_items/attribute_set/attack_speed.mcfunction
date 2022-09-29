@@ -12,7 +12,7 @@
 
 
 ##---------------------------------------REFERENCE---------------------------------------##
-#execute if entity @s[nbt={Item:{id:"modded:sword_id1"}}] run item modify entity @s container.22 complement:attack_speed/sword1
-#execute if entity @s[nbt={Item:{id:"modded:sword_id2"}}] run item modify entity @s container.22 complement:attack_speed/sword2
-#execute if entity @s[nbt={Item:{id:"modded:sword_id3"}}] run item modify entity @s container.22 complement:attack_speed/sword3
+#execute if entity @s[nbt={Item:{id:"modded:sword_id1"}}] run item modify entity @s container.0 complement:attack_speed/sword1
+#execute if entity @s[nbt={Item:{id:"modded:sword_id2"}}] run item modify entity @s container.0 complement:attack_speed/sword2
+#execute if entity @s[nbt={Item:{id:"modded:sword_id3"}}] run item modify entity @s container.0 complement:attack_speed/sword3
 ##---------------------------------------------------------------------------------------##
