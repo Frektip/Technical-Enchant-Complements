@@ -1,6 +1,6 @@
 #This function is to detect when a player use a certain tool
 ##This is to make modded tools to be compatible with Mining+, Vein-Miner
-## Timber, Auto-Smelt, Chopping, Excavator and Splatter Enchantments
+## Timber, Auto-Smelt, Chopping, Excavator, Splatter and Scyther Enchantments
 #Otherwise the game isn't going to recognize those modded tools even though
 # you can add those enchantments through the Technical Anvil
 
@@ -12,6 +12,7 @@
 # teplus.pick = picaxe related tools
 # teplus.axe = axe related tools
 # teplus.shov = shovel related tools
+# teplus.hoe = hoe related tools
 # teplus.firod = fining rod related tools
 
 # You need to follow this format:
