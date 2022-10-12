@@ -10,6 +10,6 @@ You can find the complements list in the [wiki](https://github.com/Frektip/Techn
 
 
 # Technical-Enchant-Complements-Creator!!
-There is a software developed  by Ziromanean, were you can easily create your own complement datapack wihtout too much effort. You don't even need to have any knowledge in commands, just know the id from the items you want to make compatible with TE+ enchantments. 
+There is a software developed  by [Ziromanean](https://github.com/KendallP4299), were you can easily create your own complement datapack wihtout too much effort. You don't even need to have any knowledge in commands, just know the id from the items you want to make compatible with TE+ enchantments. 
 
 You can download the software and find better documentation here: https://github.com/KendallP4299/Complement-Creator-for-Technical-Enchant-Renewed-
