@@ -44,6 +44,7 @@ execute unless data entity @s Item.tag.CustomCurse if predicate enchantplus:rand
 # -enchantplus:loot/enchanting/set_curse/armor
 # -enchantplus:loot/enchanting/set_curse/tools
 # -enchantplus:loot/enchanting/set_curse/weapons
+# -enchantplus:loot/enchanting/set_curse/ranged
 
 #Set new Lore (DON'T TOUCH)
 function #enchantplus:set_lore_item
