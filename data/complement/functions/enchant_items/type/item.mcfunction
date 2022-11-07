@@ -32,26 +32,14 @@ execute if score #vanench game.Opts matches 1 run data modify entity @s Item.tag
 tag @s add tepcom.custom_id_tag
 
 #Set CustomEnchantments[{}] nbt (DON'T TOUCH)
-function enchantplus:loot/enchanting/check_type
+function enchantplus:loot/enchanting/set_ench/core
 
-#Small chance to add a custom Curse
-# You can modify the rates of this happening, by default the 
-#  command is as it follows:
-execute unless data entity @s Item.tag.CustomCurse if predicate enchantplus:random_chance/10 run function enchantplus:loot/enchanting/set_curse/axe
-
-# You can replace the "path" with the ones TE+ provides
-# -enchantplus:loot/enchanting/set_curse/axe
-# -enchantplus:loot/enchanting/set_curse/armor
-# -enchantplus:loot/enchanting/set_curse/tools
-# -enchantplus:loot/enchanting/set_curse/weapons
-# -enchantplus:loot/enchanting/set_curse/ranged
+#Small chance to add a custom Curse (DON'T TOUCH)
+execute unless data entity @s Item.tag.CustomCurse if predicate enchantplus:random_chance/10 run function enchantplus:loot/enchanting/set_curse/prepare
 
 #Set new Lore (DON'T TOUCH)
-function #enchantplus:set_lore_item
+function enchantplus:loot/set_lore/items
 ##==================================================================##
-
-#In case all fails: No Custom Enchantments, Curses and Vanilla enchantaments (DON'T TOUCH)
-execute unless data entity @s[predicate=!enchantplus:none_ench] Item.tag.Enchantments[0].id run data remove entity @s Item.tag.Enchantments
 
 #In case all fails: No Custom Enchantments, Curses and Vanilla enchantaments (DON'T TOUCH)
 execute unless data entity @s[predicate=!enchantplus:none_ench] Item.tag.Enchantments[0].id run function enchantplus:loot/end/fail

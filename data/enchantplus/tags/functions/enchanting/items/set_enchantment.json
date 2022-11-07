@@ -1,0 +1,5 @@
+{
+    "values": [
+        {"id":"complement:enchant_items/type/set_enchantment", "required":false}
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:bow",
+          "minecraft:crossbow",
+          "modded:bow1",
+          "modded:bow2",
+          "modded:crossbow1",
+          "modded:crossbow2"
+        ]
+      }
+    }
+  }
+}
